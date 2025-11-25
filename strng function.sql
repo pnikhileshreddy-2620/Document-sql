@@ -1,0 +1,14 @@
+select ('   nikhilesh    ') as trim_sent;
+select length('   nikhilesh    ') as trim_sent;
+select length(trim('   nikhilesh    ')) as trim_sent;
+select length(ltrim('   nikhilesh    ')) as trim_sent;
+select length(rtrim('   nikhilesh    ')) as trim_sent;
+select UPPER('nikhilesh');
+select LOWER('NIKHILESH');
+select REVERSE('NIKHILESH');
+select REVERSE(first_name) from actor;
+select REPLACE('Nikhilesh','N','H');
+select RIGHT('Nikhilesh',2);
+SELECT LEFT('PONGULURU',2);
+SELECT SUBSTRING('NIKHILESH',3,9);
+SELECT FIELD('n', 'a', 'b', 'c','B','b','n'); 
